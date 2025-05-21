@@ -87,3 +87,21 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         alert("Failed to send message. Please try again later.");
     });
 });
+$(".carousel").owlCarousel({
+  margin: 20,
+  loop: false, // Prevents repeating cards
+  autoplay: true,
+  autoplayTimeout: 2000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 1
+    },
+    1000: {
+      items: 2 // Only 2 items visible at max
+    }
+  }
+});
