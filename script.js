@@ -87,6 +87,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         alert("Failed to send message. Please try again later.");
     });
 });
+
 $(".carousel").owlCarousel({
   margin: 20,
   loop: false, // Prevents repeating cards
